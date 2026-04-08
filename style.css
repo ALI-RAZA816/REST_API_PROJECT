@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    overflow-x: hidden;
+    background-color: #fff;
+}
+
+
+header{
+    background-color: #3852B4;
+}
+
+/* modal box */
+
+.modalBox{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    display: none;
+    background-color: rgba(51, 51, 51,.30);
+}
